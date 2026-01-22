@@ -19,8 +19,8 @@ pip install scapy
 1. Start the Detector
 Run the detector on the target machine (e.g., your Kali Linux VM):
 Bash
-sudo python3 detector.py
+sudo python3 AI_DOS_Detector.py
 2. Run the Stress Test
 Simulate traffic from your host machine (Windows) to test the detection logic:
 Bash
-python attack_sim.py
+python attack_simulation.py
