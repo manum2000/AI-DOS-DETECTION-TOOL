@@ -14,3 +14,13 @@ A Python-based network security tool designed to monitor real-time traffic, dete
 Before running the tool, ensure you have Python 3.x installed along with the following libraries:
 ```bash
 pip install scapy
+
+🚦 Usage
+1. Start the Detector
+Run the detector on the target machine (e.g., your Kali Linux VM):
+Bash
+sudo python3 detector.py
+2. Run the Stress Test
+Simulate traffic from your host machine (Windows) to test the detection logic:
+Bash
+python attack_sim.py
