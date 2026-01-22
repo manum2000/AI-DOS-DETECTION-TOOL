@@ -15,6 +15,6 @@ def attack():
             pass
 
 # Start 100 threads to simulate a flood
-for i in range(5000):
+for i in range(1000):
     thread = threading.Thread(target=attack)
     thread.start()
