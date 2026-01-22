@@ -8,7 +8,7 @@ Simulate traffic from your host machine (Windows) to test the detection logic:
 Bash
 python attack_sim.py
 
-📊 How it Works
+📊 How it Works :
 The tool operates in a three-step pipeline:
 Ingestion: Captures raw packets in 5-second windows.
 Feature Extraction: Extracts metadata such as Source IP, Protocol, and PPS.
